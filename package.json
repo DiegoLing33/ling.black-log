@@ -1,0 +1,28 @@
+{
+  "name": "dpl.black",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yakov V. Ling",
+    "url": "https://ling.black",
+    "email": "daikiri@ling.black"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "bin": {
+    "bdpl": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/node": "^14.14.12",
+    "chalk": "^4.1.0",
+    "dayjs": "^1.9.7",
+    "typescript": "^4.1.2"
+  }
+}
