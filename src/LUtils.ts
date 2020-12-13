@@ -7,7 +7,7 @@ export const LUtils = {
 	 * @param time
 	 */
 	getTimeString(time: Date = new Date()) {
-		return dayjs(time).format('dd.MM.YYYY HH:mm:ss');
+		return dayjs(time).format('DD.MM.YYYY HH:mm:ss');
 	},
 
 	/**
