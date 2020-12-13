@@ -3,7 +3,7 @@
 ## Установка
 
 ```
-yarn add log.black
+yarn add @ling.black/log
 ```
 
 ## Использование
