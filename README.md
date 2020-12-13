@@ -1,4 +1,4 @@
-# @log.black
+# @ling.black/log
 
 ## Установка
 
